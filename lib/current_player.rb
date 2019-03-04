@@ -1,5 +1,5 @@
 def turn_count(board)
   taken = 0
-  board.each(|t| taken += 1 if t != " ")
+  board.each {|t| taken += 1 if t != " "}
   return taken
 end
